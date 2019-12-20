@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmptyNotes">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/NavBar"></ImageView>
+
+            <Button
+                android:layout_width="72dp"
+                android:layout_height="22dp"
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="12dp"
+                android:background="non"
+                android:text="Done"
+                android:textColor="#7B1E58"
+                android:textSize="17dp"
+                ></Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="191dp"
+                android:layout_height="46dp"
+                android:text="Notes"
+                android:textSize="34dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="12dp"
+                android:textColor="#000000"
+                ></TextView>
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            >
+            <EditText
+                android:layout_width="370dp"
+                android:layout_height="36dp"
+                android:background="#E4E4E5"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="20dp"
+                android:paddingLeft="16dp"
+                android:text="Search"
+                android:textColor="#8E8E93"
+                >
+
+            </EditText>
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+            android:layout_marginTop="100dp">
+            
+            <ImageView
+                android:layout_width="109dp"
+                android:layout_height="120dp"
+                android:src="@drawable/Rectangle2"
+                android:layout_marginLeft="150dp"
+                >
+
+            </ImageView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="30dp">
+
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="40dp"
+                    android:text="Let’s create a"
+                    android:textColor="#9B9B9B"
+                    android:layout_marginLeft="100dp"
+                    android:textSize="18dp"
+                    >
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="44dp"
+                    android:layout_height="40dp"
+                    android:text="Note"
+                    android:textColor="#7B1E58"
+                    android:textStyle="bold"
+                    android:textSize="18dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:text="together"
+                    android:textColor="#9B9B9B"
+                    android:textSize="18dp"
+                    >
+                </TextView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="155dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/Fab"
+                android:layout_marginLeft="312dp"
+                ></ImageView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
