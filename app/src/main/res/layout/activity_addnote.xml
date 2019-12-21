@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#7B1E58"
+    >
+
+    <ImageView
+        android:id="@+id/imgView1"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="12dp"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_left_accessory"></ImageView>
+
+    <Button
+        android:id="@+id/But1"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:background="#7B1E58"
+        android:text="Save"
+        android:textColor="#FFF"
+        android:textSize="17sp"></Button>
+
+
+    <TextView
+        android:id="@+id/textV1"
+        android:layout_width="193dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/imgView1"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginStart="30dp"
+        android:text="March 20 , 2018 15:35"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"></TextView>
+
+    <EditText
+        android:id="@+id/editT1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textV1"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="30dp"
+        android:paddingLeft="10dp"
+        android:text="Title of note"
+        android:textColor="#FFF"
+        android:inputType="text"></EditText>
+
+    <EditText
+        android:id="@+id/editT2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editT1"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="-2dp"
+        android:layout_marginEnd="30dp"
+        android:paddingLeft="16dp"
+        android:text=""
+        android:textColor="#FFF"></EditText>
+
+
+</RelativeLayout>
